@@ -60,6 +60,7 @@ jobs:
       - name: Checkout codebase
         uses: actions/checkout@v2
         with:
+          repository: beego/beego-session-ext
           fetch-depth: 0
 
       - name: Run ORM tests on postgres
